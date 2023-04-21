@@ -7,12 +7,10 @@
 		"@testing-library/jest-dom": "^5.14.1",
 		"@testing-library/react": "^13.0.0",
 		"@testing-library/user-event": "^13.2.1",
-		"format-duration": "^3.0.2",
-		"prismjs": "^1.29.0",
 		"react": "link:../node_modules/react",
 		"react-dom": "link:../node_modules/react-dom",
 		"react-scripts": "5.0.1",
-		"react-text2speech": "link:..",
+		"react-bubbles": "link:..",
 		"web-vitals": "^2.1.0"
 	},
 	"scripts": {
@@ -40,6 +38,5 @@
 		]
 	},
 	"devDependencies": {
-		"@types/prismjs": "^1.26.0"
 	}
 }

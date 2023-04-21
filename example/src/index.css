@@ -10,45 +10,6 @@ body {
 	overflow-x: hidden;
 }
 
-em {
-	display: block;
-}
-
-strong {
-	position: relative;
-}
-
-strong::before {
-	position: absolute;
-	top: 2px;
-	left: 0px;
-	content: '';
-	background: #dddd23;
-	width: 100%;
-	height: 0%;
-	padding: 10px;
-	z-index: 0;
-	opacity: 0.3;
-	border-radius: 2px;
-}
-
-pre {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0;
-	padding: 0;
-	overflow-x: auto;
-}
-
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-		monospace;
-	width: 100%;
-	overflow: auto;
-}
-
 * {
 	box-sizing: border-box;
 	white-space: pre-line;
